@@ -1,0 +1,1 @@
+{"name":"luba-beats","private":true,"workspaces":["packages/*"],"devDependencies":{"pnpm":"^7.0.0"}}
