@@ -3,3 +3,13 @@
 ## Visión General del Sistema
 
 Luba Beats es una plataforma de streaming musical con un marketplace integrado de beats.
+
+
+│ FRONTEND (Next.js) - Vercel 
+│ └──────────────┬──────────────────────────┘ 
+│ ↓ ┌─────────────────────────────────────────┐ 
+│ BACKEND (Express) - Railway/Render 
+│ └──────────────┬──────────────────────────┘ 
+│ ┌──────────┼──────────┐ ↓ ↓ ↓ ┌────────┐ ┌─────────┐ ┌────────┐ 
+│Supabase│ │Cloudinary│ │ Kahio │ │ (DB) │ │(Storage) │ │(Pagos)│ 
+└────────┘ └─────────┘ └────────┘
